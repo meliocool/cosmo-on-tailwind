@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tripleS</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="icon" type="image/jpg" href="/src/assets/icon.png" />
+  </head>
+  <body class="font-Poppins">
+    <nav class="lg:flex lg:justify-between lg:gap-36 lg:pt-8 lg:pl-28">
+      <div class="lg:text-3xl font-bold">
+        <h1>tripleS</h1>
+      </div>
+      <div class="lg:flex lg:justify-evenly lg:gap-20 lg:pr-28 lg:text-sm">
+        <div class="flex relative cursor-pointer">
+          <h1 class="lg:pt-3">Member</h1>
+          <img
+            class="lg:absolute lg:top-4 left-14"
+            src="/src/assets/down-arrow-svgrepo-com (1).svg"
+            width="10"
+          />
+        </div>
+        <div class="flex relative cursor-pointer">
+          <h1 class="lg:pt-3">Album</h1>
+          <img
+            class="lg:absolute lg:top-4 lg:left-12 cursor-pointer"
+            src="/src/assets/down-arrow-svgrepo-com (1).svg"
+            width="10"
+          />
+        </div>
+        <div>
+          <button
+            class="lg:relative lg:bottom-4 bg-black lg:max-w-36 text-white lg:p-4 lg:tracking-widest lg:text-sm font-extralight"
+          >
+            COSMO APP DOWNLOAD
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section id="main-page">
+      <div class="relative overflow-hidden">
+        <div
+          id="image-container"
+          class="flex transition-transform duration-500 ease-in-out"
+        >
+          <div class="w-full shrink-0 relative">
+            <div
+              class="absolute inset-0 bg-[rgba(13,16,7,0.23)] bg-gradient-to-b from-[rgba(5,3,16,0.51)] to-[rgba(4,8,24,0.59)] pointer-events-none"
+            ></div>
+            <img
+              src="/src/assets/Hatchi_group_teaser_1.webp"
+              class="lg:w-full lg:h-full object-cover"
+            />
+            <div
+              class="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 ml-18 z-50"
+            >
+              <img src="/src/assets/hatchilogo.png" class="w-[576px]" />
+              <h1 class="text-white text-4xl font-bold mt-2 font-Poppins">
+                2024.11.20 KST
+              </h1>
+              <div class="h-1 w-28 bg-white ml-0 m-5"></div>
+              <div class="flex gap-3">
+                <img
+                  src="/src/assets/youtube.png"
+                  alt="youtube"
+                  class="w-9 opacity-60"
+                />
+                <img
+                  src="/src/assets/twitter.png"
+                  alt="twitter"
+                  class="w-8 opacity-60"
+                />
+                <img
+                  src="/src/assets/tiktok.png"
+                  alt="tiktok"
+                  class="w-7 opacity-60"
+                />
+                <img
+                  src="/src/assets/instagram.png"
+                  alt="instagram"
+                  class="w-8 opacity-60"
+                />
+                <img
+                  src="/src/assets/discord.png"
+                  alt="discord"
+                  class="w-9 opacity-60"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="w-full shrink-0 relative">
+            <div
+              class="absolute inset-0 bg-[rgba(13,16,7,0.23)] bg-gradient-to-b from-[rgba(5,3,16,0.51)] to-[rgba(4,8,24,0.59)] pointer-events-none"
+            ></div>
+            <img
+              src="/src/assets/hatchib.webp"
+              class="lg:w-full lg:h-full object-cover"
+            />
+          </div>
+        </div>
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+          <button
+            class="bullet w-3 h-3 rounded-full bg-gray-400 hover:bg-gray-600"
+            data-index="0"
+          ></button>
+          <button
+            class="bullet w-3 h-3 rounded-full bg-gray-400 hover:bg-gray-600"
+            data-index="1"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <script src="landingpage.js"></script>
+  </body>
+</html>
