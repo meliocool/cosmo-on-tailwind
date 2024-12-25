@@ -562,6 +562,40 @@ html ::-webkit-scrollbar {
   display: none;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -586,10 +620,6 @@ html ::-webkit-scrollbar {
   bottom: 1rem;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .left-1\/2 {
   left: 50%;
 }
@@ -602,20 +632,20 @@ html ::-webkit-scrollbar {
   left: 3.5rem;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
 .right-0 {
   right: 0px;
 }
 
-.top-0 {
-  top: 0px;
+.top-1\/2 {
+  top: 50%;
 }
 
-.bottom-14 {
-  bottom: 3.5rem;
+.left-4 {
+  left: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
 }
 
 .z-0 {
@@ -626,16 +656,84 @@ html ::-webkit-scrollbar {
   z-index: 50;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-5 {
   margin: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-0 {
   margin-left: 0px;
 }
 
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
 }
 
 .flex {
@@ -658,8 +756,12 @@ html ::-webkit-scrollbar {
   height: 100vh;
 }
 
-.h-72 {
-  height: 18rem;
+.h-6 {
+  height: 1.5rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-12 {
@@ -690,12 +792,56 @@ html ::-webkit-scrollbar {
   width: 2.25rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[576px\] {
   width: 576px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-\[768\] {
+  width: 768;
+}
+
+.w-\[600\] {
+  width: 600;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[740px\] {
+  width: 740px;
+}
+
+.w-\[768px\] {
+  width: 768px;
+}
+
+.w-\[1152px\] {
+  width: 1152px;
+}
+
+.w-\[1100px\] {
+  width: 1100px;
+}
+
+.w-\[1080px\] {
+  width: 1080px;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .shrink-0 {
@@ -740,12 +886,20 @@ html ::-webkit-scrollbar {
   justify-content: center;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-0 {
   gap: 0px;
 }
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-96 {
+  gap: 24rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -818,8 +972,12 @@ html ::-webkit-scrollbar {
   padding: 1rem;
 }
 
-.text-justify {
-  text-align: justify;
+.p-7 {
+  padding: 1.75rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .font-Poppins {
@@ -831,14 +989,23 @@ html ::-webkit-scrollbar {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
 }
 
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -847,6 +1014,10 @@ html ::-webkit-scrollbar {
 
 .font-extralight {
   font-weight: 200;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
