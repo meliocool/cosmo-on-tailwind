@@ -1,3 +1,10 @@
+const hamburger = document.getElementById("hamburger")
+const menuItems = document.getElementById("menu-items")
+
+hamburger.addEventListener("click", () => {
+  menuItems.classList.toggle("hidden")
+})
+
 // --- Image Carousel (Hero Section) ---
 const imageContainer = document.getElementById("image-container")
 const imageBullets = document.querySelectorAll(".image-bullet") // Use a different class for image bullets
